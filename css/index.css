@@ -1,0 +1,368 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("../media/hero-img.svg");
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-brand{
+    padding-left: 35px;
+}
+.navbar-nav{
+    padding-right: 35px;
+}
+#nav-linked{
+    color: #F2A365;
+}
+#nav-links{
+    color: #ffffff !important;
+}
+.hero-item{
+    padding-top: 200px;
+    padding-left: 35px;  
+}
+.hero-item h1{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 45px;
+    font-style: normal;
+    color: #e5e5e5;  
+}
+.hero-item h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #f2a365;
+}
+ .btn{
+    color: #f2a365;
+    background: none;
+    border: 2px solid #f2a365;
+}    
+.hero-item1{
+    float: right;
+    position: relative;
+    top: 250px;
+    right: 90px;
+}
+.hero-item1 h3{
+    color: #f2a365;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-top: -20px;
+}
+.hero-item1 p{
+    color: #e5e5e5;
+}
+.horizontal-line{
+    /* float: right; */
+    position: absolute;
+    top: 710px;
+    right: 55px;
+    width: 150px;
+    height: 5px;
+}
+.horizontal-line div{
+    display: inline-block;
+}
+.horizontal-line div:nth-child(1){
+    width: 50px;
+    height: 5px;
+    margin-right: 5px;
+    background-color: #e5e5e5;
+}
+.horizontal-line div:nth-child(2){
+    width: 20px;
+    margin-right: 5px;
+    height: 5px;
+    background-color: #e5e5e5;
+}
+.horizontal-line div:nth-child(3){
+    width: 10px;
+    height: 5px;
+    background-color: #e5e5e5;
+}
+/* MY HERO SECTION ENDS HERE */
+.section-services{
+    background-color: #222831;
+    height: 90vh;
+}
+#col-text h3{
+    color: #F2A365;
+}
+#col-text p{
+    color: #e5e5e5;
+}
+/* MY SERVICES SECTION ENDS HERE */
+.section-achieve{
+    background-image: url("../media/achievement-bg.png");
+    background-color: black;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.achieve-details{
+    text-align: center;
+    padding-top: 50px;
+}
+.section-achieve h3{
+    color: #F2A365;
+}
+.section-achieve p{
+    color: #e5e5e5;
+    padding: 0px 200px;
+}
+#achieve-img{
+    margin-top: 80px;
+    justify-content: center;
+}
+#p1, #p2,#p3{
+    color: #e5e5e5;
+}
+#num1, #num2, #num3{
+    color: #F2A365;
+    font-weight: bold;
+}
+/* MY ACHIEVEMENT SECTION ENDS HERE */
+.section-reviews{
+    background-color: #222831;
+    height: 100vh;
+}
+#testimonial{
+    background-color: #1c2027;
+    height: 50%;
+    margin-top: 100px;
+}
+.review-top{
+    text-align: center;
+}
+.review-top h3{
+    color: #F2A365;
+}
+.review-top p{
+    color: #ffffff;
+}
+.hr{
+    border: 4px solid #f2a365;
+    margin-top: 80px;
+    width: 120px;
+    margin-left: -140px;
+    margin-bottom: 50px;   
+}
+#work-review p{
+    color: #e5e5e5;
+    margin-left: -50px;
+    margin-right: 70px;   
+}
+#testimonial img{
+    margin-left: 80px;
+    margin-top: -70px   
+}
+#testimonial span{
+    color: #f2a365;
+    font-weight: bold;
+    font-size: 24px;
+}
+/* MY REVIEW SECTION ENDS HERE */
+.section-contact{
+    background-color: #222831;
+    height: 100vh;
+}
+#contact-top h3{
+    color: #F2A365;
+}
+#contact-top p{
+    color: #e5e5e5;
+}
+#contact-form{
+    background-image: url("../media/available-bg.svg");
+    background-size: cover;
+    height: 70%;
+}
+#contact-form img{
+    height: 80%;
+    margin-left: 150px;
+}
+.form-group{
+    margin-left: 0px;
+    margin-top: 0px;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-row-gap: 10px;
+    grid-column-gap: 50px;
+}
+.form-row{
+    margin-top: 150px;
+}
+#name{
+    border: 0.2px solid gray;
+    border-radius: 4px;
+    width: 200%;
+    height: 45px;
+}
+#email{
+    border: 0.2px solid gray;
+    border-radius: 4px;
+    width: 200%;
+    height: 45px;
+}
+#date{
+    border: 0.2px solid gray;
+    border-radius: 4px;
+    width: 200%;
+    height: 45px;
+}
+#phone{
+    border: 0.2px solid gray;
+    border-radius: 4px;
+    width: 120%;
+    height: 45px;
+    margin-left: 150px;
+}
+#services{
+    border: 0.2px solid gray;
+    border-radius: 4px;
+    width: 120%;
+    height: 45px;
+    margin-left: 150px;
+}
+#time{
+    border: 0.2px solid gray;
+    border-radius: 4px;
+    width: 120%;
+    height: 45px;
+    margin-left: 150px; 
+}
+#submit{
+    color: #f2a365;
+    background: none;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #f2a365;
+    font-size: 15px;
+    margin-left: 70px;
+}
+/* MY CONTACT SECTION ENDS */
+.section-footer{
+    background-color: #222831;
+}
+#foot-left, #foot-right, #foot-bottom{
+    color: #e5e5e5;
+}
+
+@media  (max-width: 767px){
+    header{
+        background-image: url("../media/herobg-mobile.svg");
+        background-size: cover;
+        height: 50vh;
+    }
+    .navbar-brand{
+        padding-left: 0px;
+        width:10% !important;
+    }
+    .hero-item{
+        padding-top: 50px;
+        padding-left: 15px; 
+    }
+    .hero-item h1{
+        font-size: 20px;
+    }
+    .hero-item h4{
+        font-size: 15px;
+    }
+     .btn{
+        margin-top: 15px;
+    }    
+    .hero-item1{
+        position: relative;
+        top: -30px;
+        right: 0px;
+    }
+    .hero-item1 h3{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .hero-item1 p{
+        color: #e5e5e5;
+    }
+    .horizontal-line{
+        display: none;
+    }
+    /* MY HERO SECTION ENDS HERE */
+    .section-services{
+        margin-top: -30px;
+    }
+    #col-img1, #col-img3{
+        display: none;
+    }
+    .section-services p{
+        padding: 0px 10px;
+    }
+    /* MY SERVICES SECTION ENDS */
+    .section-achieve{
+        background-image: url("../media/achievementbg-mobile.png");
+        background-size: cover;
+        height: 150vh;
+    }
+    .section-achieve p{
+        padding: 0px 20px;
+    }
+    /* MY ACHIEVE SECTION ENDS HERE */
+    .section-review{
+        height: 200vh;
+    }
+    #testimonial{
+        height: 40%;
+        position: relative;
+        top: 140px;
+    }
+    #testimonial img{
+        width: 50%;
+        margin-left: 50%px;
+        margin-top: -70%;
+    }
+    .hr{
+        margin-left: 0px;
+        margin-bottom: 0px;
+        position: absolute;
+        top: -100px;
+    }
+    #work-review p{
+        margin-left: 0px;
+        margin-right: 0px;
+        position: relative;
+        top: -5px;
+    }
+    #contact-form img{
+        display: none;
+    }
+    .form-group{
+        display: block !important;
+        width: 100% !important;
+    }
+    .form-row{
+        width: 100% !important;
+        margin-top: 0px;
+    }
+    #submit{
+    margin-left: 90px;
+    margin-top: 10px;
+    }
+#phone, #services, #time{
+    margin-left: 0px;
+    width: 100%;
+    }   
+    #name, #email, #date{
+        width: 100%;
+    } 
+}
